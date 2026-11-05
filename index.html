@@ -56,24 +56,39 @@
           </div>
         </article>
 
-        <!-- Partner: replace the placeholder content below with your information. -->
-        <article class="profile-card profile-card--placeholder">
-          <div class="photo-placeholder" aria-hidden="true">
-            <span>+</span>
-            <p>Add your image</p>
+        <article class="profile-card">
+          <div class="portrait-frame">
+            <img
+              src="hannah-white-poodle.png"
+              alt="A small white poodle sitting in a sunlit garden"
+            />
+            <span class="card-number" aria-hidden="true">02</span>
           </div>
 
           <div class="card-content">
             <p class="card-kicker">Our team</p>
-            <h2>Your name<span aria-hidden="true">.</span></h2>
-            <p class="major">Your major or area of study</p>
+            <h2>Hannah<span aria-hidden="true">.</span></h2>
+            <p class="major">Design of Learning Technology</p>
             <p class="bio">
-              Add a short sentence about yourself here, then replace this text.
+              I am interested in creating thoughtful learning experiences through design and technology.
             </p>
 
-            <div class="partner-note">
-              <p class="fact-label">Your fun fact</p>
-              <p>Add something memorable about you!</p>
+            <button
+              class="fact-button"
+              type="button"
+              aria-expanded="false"
+              aria-controls="hannah-fun-fact"
+            >
+              <span>Show fun fact</span>
+              <span class="button-icon" aria-hidden="true">↗</span>
+            </button>
+
+            <div class="fun-fact" id="hannah-fun-fact">
+              <span class="bird" aria-hidden="true">한</span>
+              <div>
+                <p class="fact-label">Fun fact</p>
+                <p>I can speak Korean!</p>
+              </div>
             </div>
           </div>
         </article>
