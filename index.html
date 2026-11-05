@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Meet our learning technology design team." />
+    <title>Meet Our Team</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="team-page" aria-labelledby="page-title">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">A little about us</p>
+          <h1 id="page-title">Meet our team<span aria-hidden="true">.</span></h1>
+        </div>
+        <p class="header-note">Two people, two stories, one shared page.</p>
+      </header>
+
+      <section class="card-grid" aria-label="Team member profiles">
+        <article class="profile-card">
+          <div class="portrait-frame">
+            <img
+              src="assets/dog-portrait.png"
+              alt="A cheerful golden retriever sitting in a sunny park"
+            />
+            <span class="card-number" aria-hidden="true">01</span>
+          </div>
+
+          <div class="card-content">
+            <p class="card-kicker">Our team</p>
+            <h2>Anna<span aria-hidden="true">.</span></h2>
+            <p class="major">Design of Learning Technology</p>
+            <p class="bio">
+              I care about making learning feel clear, creative, and human.
+            </p>
+
+            <button
+              class="fact-button"
+              type="button"
+              aria-expanded="false"
+              aria-controls="anna-fun-fact"
+            >
+              <span>Show fun fact</span>
+              <span class="button-icon" aria-hidden="true">↗</span>
+            </button>
+
+            <div class="fun-fact" id="anna-fun-fact">
+              <span class="bird" aria-hidden="true">☀</span>
+              <div>
+                <p class="fact-label">Fun fact</p>
+                <p>I have a sun conure!</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Partner: replace the placeholder content below with your information. -->
+        <article class="profile-card profile-card--placeholder">
+          <div class="photo-placeholder" aria-hidden="true">
+            <span>+</span>
+            <p>Add your image</p>
+          </div>
+
+          <div class="card-content">
+            <p class="card-kicker">Our team</p>
+            <h2>Your name<span aria-hidden="true">.</span></h2>
+            <p class="major">Your major or area of study</p>
+            <p class="bio">
+              Add a short sentence about yourself here, then replace this text.
+            </p>
+
+            <div class="partner-note">
+              <p class="fact-label">Your fun fact</p>
+              <p>Add something memorable about you!</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
